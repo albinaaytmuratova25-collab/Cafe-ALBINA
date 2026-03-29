@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <title>Cafe ALBINA</title>
+</head>
+<body>
+
+ 
+  <!-- 1. NAVBAR -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+        <a href="#" class="navbar-brand fw-bold">Cafe ALBINA</a>
+        <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navMenu">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navMenu">
+  <ul class="navbar-nav ms-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="#menu-section">Menu</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#prices">Prices</a>
+    </li>
+ <li class="nav-item">
+      <a class="nav-link" href="#about">About</a>
+    </li>
+
+
+    <!-- nav-item ham nav-link klasslarin paydalangan halda tagi eki silteme qosin -->
+  </ul>
+</div>
+    </div>
+</nav>
+  <!-- 2. CAROUSEL -->
+   <div id="menuCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="https://zira.uz/wp-content/uploads/2018/05/hot-dog-3.jpg" class="d-block w-100" style="aspect-ratio:16/9; object-fit:cover" height="600" alt="photo">
+      <div class="carousel-caption"><h5>Hotdog</h5></div>  <!-- ← ozgert -->
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://imageproxy.wolt.com/assets/67335f5ef80c1126648b8c5c" class="d-block w-100" style="aspect-ratio:16/9; object-fit:cover" height="600" alt="photo">
+      <div class="carousel-caption"><h5>Lavash</h5></div>   <!-- ← ozgert -->
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://cdn-uz.kursiv.media/wp-content/uploads/2025/10/aqsawlaq-1024x682.jpg" class="d-block w-100" style="aspect-ratio:16/9; object-fit:cover" height="600" alt="photo">
+      <div class="carousel-caption"><h5>Aqsawlaq</h5></div> <!-- ← ozgert -->
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" data-bs-target="#menuCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span></button>
+  <button class="carousel-control-next" data-bs-target="#menuCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span></button>
+</div>
+  <!-- 3. HERO -->
+   <section class="bg-dark text-white text-center py-5">
+   <div class="container">
+   <h1 class="display-4 fw-bold mb-3">Cafe ALBINA</h1>
+   <p class="lead text-light mb-4">Biz janadan kafe ashtiq</p>
+   <a class="btn btn-warning btn-lg px-5" href="#menu-section">menu</a>
+   </section>
+</div>
+
+   <div class="container mt-4">
+     <div class="alert alert-warning alert-dismissible fade show">
+       <strong>Bayram kunleri tagamlar teginge beriledi.</strong>
+       <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+  
+     </div>
+    
+
+   </div>
+  <!-- 4. ALERT -->
+   <section class="py-5 bg-light id=#menu-section">
+    <div class="container">
+
+      <h2 class="text-center fw-bold mb-4">"Bizdin Menu"</h2>
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm">
+    <img src="https://chakchak.uz/uploads/images/reciepts/e069d43aaa46e752.jpg" 
+        class="card-img-top object-fit-cover"
+                 style="height:180px"
+                 alt="Cappuccino"> 
+        
+            <div class="card-body">
+        
+              <!-- awqat ati + bahasi bir qatarda -->
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h5 class="card-title mb-0">Grechka</h5>        
+                <span class="badge bg-warning text-dark">18 000 sum</span>  <!-- ← bahasi -->
+              </div>
+        
+              <!-- qosimsha badge (shart emes) -->
+              <span class="badge bg-danger mb-2">Hit</span>                <!-- ← yamasa qatardi oshirip taslan -->
+        
+              <!-- sipatlamasi -->
+              <p class="card-text text-muted">
+                Soft coffee with milk foam.              
+              </p>
+        
+              <!-- buyirtpa knopkasi -->
+              <button class="btn btn-outline-dark btn-sm w-100 mt-2 btn-order">Order</button>
+        
+            </div>  <!-- card-body aqiri -->
+          </div>  <!-- kartochka aqiri -->
+        </div>  <!-- bagana aqiri -->
+       <!-- 5. MENU CARDS -->
+            
+        <div class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm">
+        
+            <img src="https://odam.uz/upload/media/posts/2017-08/18/16fcdf6a22a352fe22c5e7ea7698c68c_1503028965-b.jpg" 
+        class="card-img-top object-fit-cover"
+                 style="height:180px"
+                 alt="Quyuq awqat"> 
+        
+            <div class="card-body">
+        
+              <!-- awqat ati + bahasi bir qatarda -->
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h5 class="card-title mb-0">Quyuq awqat</h5>        
+                <span class="badge bg-warning text-dark">20 000 sum</span>  <!-- ← bahasi -->
+              </div>
+        
+              <!-- qosimsha badge (shart emes) -->
+              <span class="badge bg-danger mb-2">Hit</span>                <!-- ← yamasa qatardi oshirip taslan -->
+        
+              <!-- sipatlamasi -->
+              <p class="card-text text-muted">
+                Soft coffee with milk foam.              
+              </p>
+        
+              <!-- buyirtpa knopkasi -->
+              <button class="btn btn-outline-dark btn-sm w-100 mt-2 btn-order">Order</button>
+    
+        
+            </div>  <!-- card-body aqiri -->
+          </div>  <!-- kartochka aqiri -->
+        </div>  <!-- bagana aqiri -->
+        <div class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm">
+        
+            <img src="data:image/jpeg;base64,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" 
+        class="card-img-top object-fit-cover"
+                 style="height:180px"
+                 alt="Quyuq awqat"> 
+        
+            <div class="card-body">
+        
+              <!-- awqat ati + bahasi bir qatarda -->
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h5 class="card-title mb-0">Quyuq awqat</h5>        
+                <span class="badge bg-warning text-dark">20 000 sum</span>  <!-- ← bahasi -->
+              </div>
+        
+              <!-- qosimsha badge (shart emes) -->
+              <span class="badge bg-danger mb-2">Hit</span>                <!-- ← yamasa qatardi oshirip taslan -->
+        
+              <!-- sipatlamasi -->
+              <p class="card-text text-muted">
+                Soft coffee with milk foam.              
+              </p>
+        
+              <!-- buyirtpa knopkasi -->
+              <button class="btn btn-outline-dark btn-sm w-100 mt-2 btn-order">Order</button>
+    
+        
+            </div>  <!-- card-body aqiri -->
+          </div>  <!-- kartochka aqiri -->
+        </div>  <!-- bagana aqiri -->
+    </div>
+    </div>
+   </section>
+    <section class="py-5" id="prices">
+      <div class="container">
+   <h2 class="text-center fw-bold mb-4">All prices</h2>
+   <div class="table-responsive">
+
+     <table class="table table-bordered table-hover table-striped">
+     <thead>
+      <tr class="table-dark">
+      <th>Awqat</th>
+  <th>Kategoriya</th>
+  <th>Baha</th>
+  <th>Status</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>lemon sherbeti</td>
+      <td>Drinks</td>
+      <td>5 000 sum</td>
+      <td><span class="badge bg-success">In stock</span></td>
+    </tr>
+    <tr>
+      <td>Maxitto</td>
+      <td>Drinks</td>
+      <td>12 000 sum</td>
+      <td><span class="badge bg-success">In stock</span></td>
+    </tr>
+    <tr>
+      <td>Pomegranate</td>
+      <td>Drinks</td>
+      <td>6 000 sum</td>
+      <td><span class="badge bg-success">Seasonal</span></td>
+    </tr>
+     <tr>
+      <td>Maksi chay</td>
+      <td>Drinks</td>
+      <td>13 000 sum</td>
+      <td><span class="badge bg-success">Hit</span></td>
+    </tr>
+  </tbody>
+     </table>
+</div>
+      </div>
+     </section>
+
+
+
+  <!-- 6. PRICE TABLE -->
+    <section class="py-5 bg-light" id="about">
+      <div class="container">
+
+      </div>
+    <h2 class="text-center fw-bold mb-4">Biz haqqinda</h2>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 text-center">
+        <p class="text-muted mb-3">
+         Biz janadan kafe ashtiq.
+         Tagamlarimiz zor.
+        </p>
+        <p class="text-muted">
+     Aziq-Awqat, ishimlik basqa da zatlar tabiladi.
+        </p>
+
+      </div>
+
+    </div>
+    </section>
+    
+  <!-- 7. TOAST -->
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index:9999">
+  <div id="orderToast" class="toast align-items-center text-white bg-success">
+    <div class="d-flex">
+      <div class="toast-body">
+        ✅ Buyirtpa qabillandi! Kelip alsaniz boladi.  <!-- ← tekstti ozgert -->
+      </div>
+      <button class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.btn-order').forEach(btn => {
+    btn.addEventListener('click', () => {
+      new bootstrap.Toast(document.getElementById('orderToast')).show();
+    });
+  });
+</script>
+
+  <!-- 8. FOOTER -->
+   <footer class="bg-dark text-white text-center py-4 mt-5">
+     <div class="container">
+     <p class="fw-bold"> Cafe ALBINA</p>
+     <p class="text-white">Taxtakopir</p>
+     <p class="text-white">9:00den 24:00</p>
+     </div>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
